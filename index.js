@@ -26,6 +26,10 @@ fs.readFile(`${__dirname}/__tests__/assets/${inputFile}`, (error, data) => {
       transforms.randomize(parsedBitMap);
       console.log(`a randomized image has been created at ${outputFile}`);
       break;
+    case 'invert':
+      transforms.invert(parsedBitMap);
+      console.log(`an inverted image has been created at ${outputFile}`);
+      break;
     default:
       console.log('Sorry, invalid tranform method');
   }
