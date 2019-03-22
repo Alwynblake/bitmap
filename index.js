@@ -35,7 +35,7 @@ fs.readFile(`${__dirname}/__tests__/assets/${inputFile}`, (error, data) => {
   }
 
   fs.writeFile(`${__dirname}/__tests__/assets/${outputFile}`,
-    parsedBitMap.buffer, (error) => {
+    parsedBitMap.buffer, () => {
       if (error) {
         console.error(error);
       }
