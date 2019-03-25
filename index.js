@@ -3,7 +3,7 @@
 const fs = require('fs');
 const bitmap = require('./lib/bitmap');
 const transforms = require('./lib/transforms');
-// node index.js blady.bmp  baldyTransformed.bmp
+// node index.js blady.bmp  baldyTransformed.bmp etc...
 const inputFile = process.argv[2];
 const outputFile = process.argv[3];
 const myArgs = process.argv.slice(4);

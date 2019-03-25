@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/Alwynblake/bitmap.svg?branch=master)](https://travis-ci.com/Alwynblake/bitmap)
 
+Group Authors:  Alistair Blake, Andrew Davis, Jerome Joof, Sarkis Aghazarian
+
 This is a command line application that transforms .bmp files.
 
 ## How To Use:
