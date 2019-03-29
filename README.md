@@ -13,5 +13,6 @@ This is a command line application that transforms .bmp files.
 1. `node index.js baldy.bmp grayscale.bmp grayscale`
 2. `node index.js baldy.bmp randomize.bmp randomize`
 3. `node index.js baldy.bmp invert.bmp invert`
+4. `node index.js baldy.bmp blueman.bmp blueman`
 
 Once you have run a transform method, you can look inside the assets folder inside of __tests__ and view the output.

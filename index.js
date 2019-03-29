@@ -30,6 +30,10 @@ fs.readFile(`${__dirname}/__tests__/assets/${inputFile}`, (error, data) => {
       transforms.invert(parsedBitMap);
       console.log(`an inverted image has been created at ${outputFile}`);
       break;
+    case 'blueman':
+      transforms.blueman(parsedBitMap);
+      console.log(`a blueman image has been created at ${outputFile}`);
+      break;
     default:
       console.log('Sorry, invalid transform method');
   }
