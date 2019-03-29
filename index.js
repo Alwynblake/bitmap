@@ -31,7 +31,7 @@ fs.readFile(`${__dirname}/__tests__/assets/${inputFile}`, (error, data) => {
       console.log(`an inverted image has been created at ${outputFile}`);
       break;
     default:
-      console.log('Sorry, invalid tranform method');
+      console.log('Sorry, invalid transform method');
   }
 
   fs.writeFile(`${__dirname}/__tests__/assets/${outputFile}`,
